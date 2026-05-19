@@ -1,12 +1,12 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 
 from app.schemas.event import EventRequest
 from app.services.event_service import EventService
+from app.dependencies import get_event_service
 
 router = APIRouter()
 
-event_service = EventService()
-
 @router.post("/events")
-async def ingest_event(event: EventRequest):
+async def ingest_event(event: EventRequest,
+                       event_service: EventService = Depends(get_event_service)):
     return await event_service.ingest_event(event)
