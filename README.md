@@ -165,26 +165,26 @@ http://localhost:8000/docs
 
 ## 8. Roadmap
 
-### Phase 1
+### ✅ Phase 1 - Core Platform (Completed)
 - [x] FastAPI setup
 - [x] health endpoint
 - [x] event ingestion API
 - [x] PostgreSQL persistence
 - [x] Docker Compose
 
-### Phase 2
+### 🚧 Phase 2 - Reliable Event Processing (In progress)
 - [ ] async worker
 - [ ] retry handling
 - [ ] DLQ support
 - [ ] event lifecycle tracking
 
-### Phase 3
+### 🤖 Phase 3 - AI Capabilities (Planned)
 - [ ] OpenAI integration
 - [ ] AI field mapping
 - [ ] AI diagnostics
 - [ ] AI onboarding assistant
 
-### Phase 4
+### 🚀 Phase 4 - Production Readiness
 - [ ] observability
 - [ ] CI/CD
 - [ ] Kubernetes deployment
