@@ -166,29 +166,29 @@ http://localhost:8000/docs
 ## 8. Roadmap
 
 ### Phase 1
-- FastAPI setup
-- health endpoint
-- event ingestion API
-- PostgreSQL persistence
-- Docker Compose
+- [x] FastAPI setup
+- [x] health endpoint
+- [x] event ingestion API
+- [x] PostgreSQL persistence
+- [x] Docker Compose
 
 ### Phase 2
-- async worker
-- retry handling
-- DLQ support
-- event lifecycle tracking
+- [ ] async worker
+- [ ] retry handling
+- [ ] DLQ support
+- [ ] event lifecycle tracking
 
 ### Phase 3
-- OpenAI integration
-- AI field mapping
-- AI diagnostics
-- AI onboarding assistant
+- [ ] OpenAI integration
+- [ ] AI field mapping
+- [ ] AI diagnostics
+- [ ] AI onboarding assistant
 
 ### Phase 4
-- observability
-- CI/CD
-- Kubernetes deployment
-- OpenTelemetry tracing
+- [ ] observability
+- [ ] CI/CD
+- [ ] Kubernetes deployment
+- [ ] OpenTelemetry tracing
 
 ---
 
